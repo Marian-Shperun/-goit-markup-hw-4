@@ -235,10 +235,20 @@ img {
   column-gap: 30px;
 }
 .specifics-item {
-  flex-basis: calc(100% / 4 - 30px);
-  height: 100px;
-  overflow: auto;
+  max-width: 270px;
+
+  /* flex-basis: calc(100% / 4 - 30px); */
+  /* height: 100px;
+  overflow: auto; */
 }
+
+.specifics-icon {
+  padding: 25px 100px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
 .specifics-title {
   margin-bottom: 10px;
 
